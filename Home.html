@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home/Twitter </title>
+    <link href="assets/ticon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="css/twitter.css" />
+   
+    <script>
+      function openForm() {
+        document.getElementById("myForm").style.display = "block";
+      }
+      </script>
+  </head>
+  <body bgcolor="black">
+    <div class="layout">
+      <div class="layout__left-sidebar">
+        <img src="assets/icon.png" class="brand" /><br><br>
+        <div class="sidebar-menu">
+          <a href="Home.html" style="text-decoration: none;" style="color: inherit;" >
+            <div class="sidebar-menu__item sidebar-menu__item--active">
+              <img src="./svg/home.svg" class="sidebar-menu__item-icon" />
+              Home
+            </div>
+          </a>
+          <div class="sidebar-menu__item">
+            <img src="assets/explore.png" class="sidebar-menu__item-icon" />
+            Explore
+          </div>
+
+          <div class="sidebar-menu__item">
+            <img
+              src="assets/notifications.png"
+              class="sidebar-menu__item-icon"
+            />
+            Notifications
+          </div>
+
+          <div class="sidebar-menu__item">
+            <img src="assets/messages.png" class="sidebar-menu__item-icon" />
+            Messages
+          </div>
+          
+          <div class="sidebar-menu__item">
+            <img src="assets/bk.png" class="sidebar-menu__item-icon" />
+            Bookmarks
+          </div>
+
+          <div class="sidebar-menu__item">
+            <img src="assets/l.png" class="sidebar-menu__item-icon" />
+            Lists
+          </div>
+
+          <div class="sidebar-menu__item">
+            <img src="assets/profile.png" class="sidebar-menu__item-icon" />
+            Profile
+          </div>
+
+          <div class="sidebar-menu__item">
+            <img src="assets/more.png" class="sidebar-menu__item-icon" />
+            More
+          </div><br>
+          <a href="#"><b><input class="myButton" type="submit" value="Tweet"></b></a><br><br>
+          <div>
+            <button class="open-button" onclick="openForm()"><b>User</b></button>
+               <div class="form-popup" id="myForm">
+                  <form action="/action_page.php" class="form-container">
+                      <h1>user</h1>
+                      <p>@user</p>
+                      <a href="log in.html"><button type="button" class="btn">Add an existing user</button></a>
+                      <a href="intro.html"><button type="button" class="btn cancel" >Log out @user </button></a>
+                  </form>
+               </div>
+          </div>
+        </div>
+      </div>
+      <div class="layout__main">
+        <div class="tweet">
+          <div class="tweet__main">
+            <div class="tweet__header">
+              <div class="tweet__author-name">
+                  Home
+              </div>
+              <div class="tweet__author-slug">
+                
+              </div>
+              <div class="tweet__publish-time">
+                
+              </div>
+            </div>
+            <div class="tweet__content" >
+              <p style="color:#6e676d">
+                What's happening?</p>
+            </div>
+            <div class="small__icons__all">
+              <div class="small__icons">
+                <div>
+                  <img src="./images/1.png" alt="media" width="18.75px" height="25px">
+                </div>
+                <div>
+                  <img src="./images/gif.png" alt="gif" width="18.75px" height="20px">
+                </div>
+                <div>
+                  <img src="./images/poll.png" width="18.75px" height="20px">
+                </div>
+                <div>
+                  <img src="./images/emoji.png" width="18.75px" height="20px">
+                </div>
+                <div>
+                  <img src="./images/schedule.png" width="18.75px" height="20px">
+                </div>
+              </div>
+              <div>
+                <a href="#"><b><input class="myButton" type="submit" value="Tweet"></b>
+              </div>
+            </div>
+          </div>
+        </div><br>
+        <div class="tweet">
+          <img class="tweet__author-logo" src="./images/1.jpg" />
+          <div class="tweet__main">
+            <div class="tweet__header">
+              <div class="tweet__author-name">
+                Google AI
+              </div>
+              <div class="tweet__author-slug">
+                @GoogleAI
+              </div>
+              <div class="tweet__publish-time">
+                May 7
+              </div>
+            </div>
+            <div class="tweet__content">
+                  Check out Know Your Data, a tool built by the PAIR team at Google to help understand datasets, improve data quality and 
+                  mitigate bias issues. Try it for yourself on 71 datasets in the <a href="https://twitter.com/TensorFlow">@TensorFlow</a>
+                  <br> Datasets catalog. <a href="http://knowyourdata.withgoogle.com">http://knowyourdata.withgoogle.com</a>
+              <img class="tweet__image" src="./images/1.jfif" />
+            </div>
+          </div>
+        </div><br>
+
+        <div class="tweet">
+          <img class="tweet__author-logo" src="./images/2.png" />
+          <div class="tweet__main">
+            <div class="tweet__header">
+              <div class="tweet__author-name">
+                BBC News (World)
+              </div>
+              <div class="tweet__author-slug">
+                @BBCWorld
+              </div>
+              <div class="tweet__publish-time">
+                May 26
+              </div>
+            </div>
+            <div class="tweet__content">
+              Camera system using artificial intelligence and facial recognition to reveal states of emotion tested 
+              on Uyghurs in Xinjiang, BBC told
+              <img class="tweet__image" src="./images/3.png" />
+            </div>
+          </div>
+        </div>
+
+        <div class="tweet">
+          <img class="tweet__author-logo" src="./images/2.jpg" />
+          <div class="tweet__main">
+            <div class="tweet__header">
+              <div class="tweet__author-name">
+                AI News International🌏
+              </div>
+              <div class="tweet__author-slug">
+                @AINewsInt
+              </div>
+              <div class="tweet__publish-time">
+                7m
+              </div>
+            </div>
+            <div class="tweet__content">
+                TOP 50 USE CASES  OF <B>ARTIFICIAL INTELLIGENCE</B> IN DIVERSE SECTORS: 
+                <a href="https://www.analyticsinsight.net/top-50-use-cases-of-artificial-intelligence-in-diverse-sectors/">
+                  https://analyticsinsight.net/top-50-use-cas...</a>
+                  <br>Analytics Insight has listed the top 50 <a href="https://twitter.com/hashtag/business?src=hashtag_click">
+                    #business</a> use cases of <b>artificial intelligence.</b>
+                    <img class="tweet__image" src="./images/2.jfif" />
+            </div>
+          </div>
+        </div>
+
+        <div class="tweet">
+          <img class="tweet__author-logo" src="./images/5.png" />
+          <div class="tweet__main">
+            <div class="tweet__header">
+              <div class="tweet__author-name">
+                NASA Data Science
+              </div>
+              <div class="tweet__author-slug">
+                @NASAdata
+              </div>
+              <div class="tweet__publish-time">
+                May 15
+              </div>
+            </div>
+            <div class="tweet__content">
+              Machine learning isn’t rocket science, unless you’re doing it at NASA. Check out this podcast with 
+              <a href="https://twitter.com/davidmeza1">@davidmeza1</a>
+              <img class="tweet__image" src="./images/4.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="layout__right-sidebar-container">
+        <div class="layout__right-sidebar">
+          <form>
+            <input type="search" placeholder="Search Twitter">
+          </form><br>
+          <div class="trends-for-you">
+            <div class="trends-for-you__block">
+              <div class="trends-for-you__heading">
+                What's happening
+              </div>
+            </div>
+            <div class="trends-for-you__block">
+              <div class="trends-for-you__meta-information">
+                Trending in India
+              </div>
+              <div class="trends-for-you__trend-name">
+                Comedy
+              </div>
+              <div class="trends-for-you__meta-information">
+                56.5k Tweets
+              </div>
+            </div>
+            <div class="trends-for-you__block">
+              <div class="trends-for-you__meta-information">
+                Sports Trending
+              </div>
+              <div class="trends-for-you__trend-name">
+                #championsLeagueFinal
+              </div>
+              <div class="trends-for-you__meta-information">
+                8,277 Tweets
+              </div>
+            </div>
+            <div class="trends-for-you__block">
+              <div class="trends-for-you__meta-information">
+                K-pop Trending
+              </div>
+              <div class="trends-for-you__trend-name">
+                Free BTS
+              </div>
+              <div class="trends-for-you__meta-information">
+                26.6k Tweets
+              </div>
+            </div>
+          </div>
+          <div class="who-to-follow">
+            <div class="who-to-follow__block">
+              <div class="who-to-follow__heading">
+                Who to follow
+              </div>
+            </div>
+            <div class="who-to-follow__block">
+              <img
+                class="who-to-follow__author-logo"
+                src="./images/profile-pic-1.jpg"
+              />
+              <div class="who-to-follow__content">
+                <div>
+                  <div class="who-to-follow__author-name">
+                    S.D.Sheik Ahamed
+                  </div>
+                  <div class="who-to-follow__author-slug">
+                    @SheikAh01534443
+                  </div>
+                </div>
+                <div class="who-to-follow__button">
+                  Follow
+                </div>
+              </div>
+            </div>
+            <div class="who-to-follow__block">
+              <img
+                class="who-to-follow__author-logo"
+                src="./images/profile-pic-3.jpeg"
+              />
+              <div class="who-to-follow__content">
+                <div>
+                  <div class="who-to-follow__author-name">
+                    S.Mohanaprasanth
+                  </div>
+                  <div class="who-to-follow__author-slug">
+                    @Mohanaprasanth0
+                  </div>
+                </div>
+                <div class="who-to-follow__button">
+                  Follow
+                </div>
+              </div>
+            </div>
+
+            <div class="who-to-follow__block">
+              <img
+                class="who-to-follow__author-logo"
+                src="./images/profile-pic-2.png"
+              />
+              <div class="who-to-follow__content">
+                <div>
+                  <div class="who-to-follow__author-name">
+                    V.Mugilan
+                  </div>
+                  <div class="who-to-follow__author-slug">
+                    @MugiVetri
+                  </div>
+                </div>
+                <div class="who-to-follow__button">
+                  Follow
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
