@@ -1,0 +1,120 @@
+.sidebar-menu {
+  position: fixed;
+}
+
+.sidebar-menu__item {
+  font-size: 19px;
+  color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.sidebar-menu__item:hover {
+  background: rgba(29, 161, 242, 0.1);
+  color: #1da0f2;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.sidebar-menu__item--active {
+  color: #1da0f2;
+}
+
+.sidebar-menu__item-icon {
+  height: 26px;
+  margin-right: 20px;
+}
+
+.sidebar-menu__item--active .sidebar-menu__item-icon {
+  filter: invert(67%) sepia(60%) saturate(4956%) hue-rotate(176deg) brightness(95%) contrast(99%);
+}
+.myButton 
+{
+	background-color:#1da1f2;
+	border-radius:28px;
+	border:1px solid #1da1f2;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"TwitterChirpExtendedHeavy","Verdana";
+	font-size:17px;
+	padding:16px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	width:110%;	
+	text-align:center;
+}
+.myButton:hover 
+{
+	background-color:#1a91da;
+}
+.myButton:active 
+{
+	position:relative;
+	top:1px;
+}
+.open-button {
+	background-color: black;
+	color: #d9d9d9;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.8;
+	position: fixed;
+	bottom: 23px;
+	left: 60px;
+	width: 280px;
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	left: 40px;
+	border: 3px solid black;
+	z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+	max-width: 300px;
+	padding: 10px;
+	background-color: black;
+	color:#d9d9d9;
+	text-align:center;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: black;
+  }
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+	background-color: black;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	margin-bottom:10px;
+	opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+	background-color: black;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+	opacity: 1;
+	background-color:#202327;
+  
+  }
